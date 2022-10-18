@@ -1,6 +1,6 @@
 # main text of home
 title: Luiz Gomes
-bio: A Passionated Tech Hacker. 
+bio: A Passionate Tech Hacker. 
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -44,7 +44,7 @@ email: gomesluiz@gmail.com
 authors:
   gomesluiz:
     name: Luiz Gomes 
-    bio: A Passionated Tech Hacker. 
+    bio: A Passionate Tech Hacker. 
     external-image: false
     picture: assets/images/profile.jpg
     twitter: gomesluiz
