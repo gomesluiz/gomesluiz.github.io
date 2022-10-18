@@ -1,6 +1,6 @@
 # main text of home
 title: Luiz Gomes
-bio: A Tech Hacker into a limitless learning loop. 
+bio: A Passionated Tech Hacker. 
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -34,7 +34,7 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: gomesluiz 
+#facebook: gomesluiz 
 #twitter: mytwitter
 #instagram: myinstagram
 linkedin: gomesluiz
@@ -44,10 +44,10 @@ email: gomesluiz@gmail.com
 authors:
   gomesluiz:
     name: Luiz Gomes 
-    bio: A Tech Hacker into a limitless learning loop. 
+    bio: A Passionated Tech Hacker. 
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: johndoe
+    twitter: gomesluiz
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
