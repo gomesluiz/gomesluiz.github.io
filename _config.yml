@@ -16,12 +16,12 @@ dark-theme: auto
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: false
+resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: https://drive.google.com/file/d/151qtr-D-l8hQpIWqeI0BXg9pHHwr5dxN/view?usp=sharing
 
-url: https://gomesluiz.github.io
 # your url: https://USERNAME.github.io
+url: https://gomesluiz.github.io
 
 permalink: /:title/
 
