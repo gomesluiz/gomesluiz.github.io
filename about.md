@@ -9,16 +9,14 @@ layout: page
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>SQL, MySQL, Oracle, and Microsoft SQL Server</li>
+	<li>Back-end Frameworks (Django, Flask, Rails, .Net Core)</li>
 	<li>C, C#, Java, Python, PHP, Ruby</li>
 	<li>CSS, Javascript HTML</li>
 	<li>Css Frameworks (Bootstrap)</li>
-	<li>Back-end Frameworks (Django, Flask, Rails. .Net Core)</li>
-	<li>ML Frameworks (Scikit-learn, Pytorch, and Tensor flow)</li>
 	<li>Git</li>
-	<li>MySQL - MongoDB</li>
+	<li>SQL, MySQL, Oracle, and Microsoft SQL Server</li>
+	<li>ML Frameworks (Scikit-learn, Pytorch, and Tensorflow)</li>
 	<li>Scrum and Extreme Programming</li>
-	<li>TDD e Continuous Integration</li>
 </ul>
 
 <!--
