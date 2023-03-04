@@ -8,7 +8,7 @@ tag:
 - relational
 - database
 - normalizartion
-category: blog
+category: 
 author: gomesluiz
 description: Basic relational database normalization techniques.
 ---
