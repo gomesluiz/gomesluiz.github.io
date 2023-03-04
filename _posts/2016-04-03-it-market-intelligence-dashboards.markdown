@@ -7,7 +7,7 @@ image:
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
-description: "IT market intelligence dashboards in AWS Quicksight and Power BI"
+description: "IT intelligence market  dashboards in AWS Quicksight and Power BI"
 category: project
 author: gomesluiz
 externalLink: false
