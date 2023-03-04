@@ -1,5 +1,5 @@
 ---
-title: "IT Market Intelligence Dashboards"
+title: "IT Intelligence Market Dashboards"
 layout: post
 date: 2016-03-04 17:31
 tag: data science
