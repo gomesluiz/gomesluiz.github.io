@@ -35,11 +35,11 @@ disqus:
 
 # if you don't have any of social below, comment the line
 #facebook: gomesluiz 
-#twitter: mytwitter
+twitter: luiz_af_gomes
 #instagram: myinstagram
 linkedin: gomesluiz
 github: gomesluiz
-email: gomesluiz@gmail.com
+email: gomes.luiz@gmail.com
 
 authors:
   gomesluiz:
@@ -47,7 +47,7 @@ authors:
     bio: Computing Professor ● AI/NLP Researcher ● Software Engineer ● Data Scientist ● Computing Writer 
     external-image: false
     picture: assets/images/officialphoto2.jpg 
-    twitter: gomesluiz
+    twitter: https://twitter.com/luiz_af_gomes
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
