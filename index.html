@@ -1,4 +1,163 @@
----
-layout: page
-title: Home
----
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luiz Gomes</title>
+    <style>
+        :root {
+            --bg-color: #fafafa;
+            --text-main: #2e3440;
+            --text-muted: #4c566a;
+            --accent: #5e81ac;
+            --accent-hover: #81a1c1;
+            --border-color: #eceff4;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 15vh auto 0 auto;
+            padding: 0 2rem;
+        }
+
+        header {
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin-bottom: 0.5rem;
+            color: var(--text-main);
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            font-weight: 400;
+        }
+
+        .bio {
+            font-size: 1rem;
+            color: var(--text-main);
+            margin-bottom: 3.5rem;
+        }
+
+        .section-title {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .links-list {
+            list-style: none;
+        }
+
+        .links-list li {
+            margin-bottom: 1rem;
+        }
+
+        .project-link {
+            display: block;
+            text-decoration: none;
+            padding: 1.2rem;
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            transition: all 0.22s ease-in-out;
+        }
+
+        .project-link:hover {
+            border-color: var(--accent);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+        }
+
+        .project-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-bottom: 0.25rem;
+            transition: color 0.2s ease;
+        }
+
+        .project-link:hover .project-title {
+            color: var(--accent);
+        }
+
+        .project-desc {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        footer {
+            margin-top: 8rem;
+            padding-bottom: 3rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-color);
+            padding-top: 1.5rem;
+        }
+
+        footer a {
+            color: var(--text-main);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        footer a:hover {
+            color: var(--accent);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Luiz Gomes</h1>
+            <p class="subtitle">Desenvolvedor &amp; Entusiasta de Código Aberto</p>
+        </header>
+
+        <main>
+            <section class="bio">
+                <p>Explorando design de interfaces, automação e customização de ecossistemas de produtividade. Focado em criar experiências digitais limpas, consistentes e altamente funcionais.</p>
+            </section>
+
+            <section>
+                <h2 class="section-title">Projetos em Destaque</h2>
+                <ul class="links-list">
+                    <li>
+                        <a href="https://gomesluiz.github.io/libre-nord/docs/index.html" class="project-link">
+                            <div class="project-title">Nord Theme para LibreOffice →</div>
+                            <div class="project-desc">Extensões oficiais trazendo as variantes Nord Light e Nord Dark para transformar a suíte de produtividade.</div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2026 Luiz Gomes. Conecte-se via <a href="https://github.com/gomesluiz" target="_blank" rel="noopener">GitHub</a>.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
