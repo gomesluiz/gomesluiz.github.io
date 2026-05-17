@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-US" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibreOffice Nord Themes</title>
+    <meta name="description" content="An elegant and comfortable collection of themes based on the Nord palette for LibreOffice.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        nord: {
+                            0: '#2e3440', 1: '#3b4252', 2: '#434c5e', 3: '#4c566a',
+                            4: '#d8dee9', 5: '#e5e9f0', 6: '#eceff4',
+                            7: '#8fbcbb', 8: '#88c0d0', 9: '#81a1c1', 10: '#5e81ac',
+                            11: '#bf616a', 12: '#d08770', 13: '#ebcb8b', 14: '#a3be8c', 15: '#b48ead'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-nord-6 text-nord-0 selection:bg-nord-8 selection:text-nord-0">
+
+    <header class="bg-nord-0 text-nord-6 py-20 border-b-4 border-nord-8 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#88c0d0_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="container mx-auto px-6 text-center relative z-10">
+            <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-4">
+                Nord Theme for <span class="text-nord-8">LibreOffice</span>
+            </h1>
+            <p class="text-nord-4 text-lg md:text-xl max-w-2xl mx-auto font-light">
+                A clean, elegant Arctic-inspired adaptation designed to reduce eye strain and bring visual consistency to your workspace.
+            </p>
+            <div class="mt-8 flex justify-center gap-4">
+                <a href="#themes" class="bg-nord-8 text-nord-0 px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-nord-7 transition-colors duration-300">
+                    View Variants
+                </a>
+                <a href="#install" class="bg-nord-2 text-nord-5 px-6 py-3 rounded-lg font-semibold border border-nord-3 hover:bg-nord-3 transition-colors duration-300">
+                    How to Install
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="themes" class="py-20 container mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-nord-1 mb-2">Official Variants</h2>
+            <p class="text-nord-3">Choose the ideal color combination for your workflow.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div class="bg-white border border-nord-4 rounded-xl p-8 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow duration-300">
+                <div>
+                    <div class="h-2 w-16 bg-nord-10 rounded mb-6"></div>
+                    <h3 class="text-2xl font-bold text-nord-10 mb-3">Nord Light</h3>
+                    <p class="text-nord-3 mb-6 font-light">
+                        Perfect for bright environments and daytime use. Light tones inspired by Arctic ice, designed to keep contrast sharp and focus clear without darkening your screen.
+                    </p>
+                </div>
+                <a href="https://github.com/gomesluiz/libre-nord/releases/latest/download/libre-nord-light.oxt" class="w-full bg-nord-10 text-white text-center py-3 rounded-lg font-semibold hover:bg-nord-9 transition-colors duration-300 shadow-sm">
+                    Download Light Extension (.oxt)
+                </a>
+            </div>
+
+            <div class="bg-nord-1 border border-nord-2 rounded-xl p-8 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow duration-300 text-nord-6">
+                <div>
+                    <div class="h-2 w-16 bg-nord-8 rounded mb-6"></div>
+                    <h3 class="text-2xl font-bold text-nord-8 mb-3">Nord Dark</h3>
+                    <p class="text-nord-4 mb-6 font-light">
+                        Built for dark mode enthusiasts and late-night work sessions. Combines deep slate and dark blue tones for maximum visual comfort.
+                    </p>
+                </div>
+                <a href="https://github.com/gomesluiz/libre-nord/releases/latest/download/libre-nord-dark.oxt" class="w-full bg-nord-8 text-nord-0 text-center py-3 rounded-lg font-semibold hover:bg-nord-7 transition-colors duration-300 shadow-sm">
+                    Download Dark Extension (.oxt)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="install" class="bg-white border-y border-nord-4 py-20">
+        <div class="container mx-auto px-6 max-w-3xl">
+            <h2 class="text-3xl font-bold text-nord-1 mb-8 text-center border-b border-nord-4 pb-4">Installation Instructions</h2>
+            <ol class="space-y-6 text-nord-2">
+                <li class="flex gap-4">
+                    <span class="flex-shrink-0 w-8 h-8 rounded-full bg-nord-8 text-nord-0 font-bold flex items-center justify-center">1</span>
+                    <p class="pt-1">Download your preferred variant using the download buttons above.</p>
+                </li>
+                <li class="flex gap-4">
+                    <span class="flex-shrink-0 w-8 h-8 rounded-full bg-nord-8 text-nord-0 font-bold flex items-center justify-center">2</span>
+                    <p class="pt-1">Open <strong>LibreOffice</strong> (any module such as Writer or Calc).</p>
+                </li>
+                <li class="flex gap-4">
+                    <span class="flex-shrink-0 w-8 h-8 rounded-full bg-nord-8 text-nord-0 font-bold flex items-center justify-center">3</span>
+                    <p class="pt-1">In the top menu, go to <strong>Tools</strong> &gt; <strong>Extension Manager...</strong></p>
+                </li>
+                <li class="flex gap-4">
+                    <span class="flex-shrink-0 w-8 h-8 rounded-full bg-nord-8 text-nord-0 font-bold flex items-center justify-center">4</span>
+                    <p class="pt-1">Click the <strong>Add</strong> button, browse to your downloads folder, select the downloaded <code>.oxt</code> file, and confirm.</p>
+                </li>
+                <li class="flex gap-4">
+                    <span class="flex-shrink-0 w-8 h-8 rounded-full bg-nord-8 text-nord-0 font-bold flex items-center justify-center">5</span>
+                    <p class="pt-1"><strong>Restart LibreOffice</strong> completely so the palette and style files are properly loaded into the application cache.</p>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <footer class="bg-nord-1 py-12 border-t border-nord-2">
+        <div class="container mx-auto px-6 text-center">
+            <!--
+            <h3 class="text-xl font-bold text-nord-6 mb-6">Support this Project</h3>
+            <p class="text-nord-4 mb-8 max-w-xl mx-auto font-light text-sm">
+                This project is maintained voluntarily. If these themes improved your workflow and reduced eye strain, consider supporting ongoing development.
+            </p>
+            <a href="https://paypal.me/YOUR_PAYPAL_USERNAME" target="_blank" class="inline-block hover:opacity-90 transition-opacity duration-300">
+                <img src="../media/LibreNordIcon.png" alt="Support the Project via PayPal" class="h-24 mx-auto">
+            </a>
+            -->
+            <div class="mt-12 text-nord-3 text-sm">
+                &copy; 2026 LibreOffice Nord Theme Collection. Licensed under the MIT License.<br>
+                Colors inspired by the official <a href="https://www.nordtheme.com/" class="text-nord-8 hover:underline" target="_blank">Nord Theme</a> project.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
